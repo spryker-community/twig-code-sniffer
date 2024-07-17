@@ -1,0 +1,109 @@
+repo_name: spryker-community/twig-code-sniffer
+report_id: e255b99a930020acfe0064fa66b6186b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:17:37+00:00'
+requested_by: andreaspenz
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/spryker-community/twig-code-sniffer
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/spryker-community/twig-code-sniffer
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/spryker-community/twig-code-sniffer/blob/master/.github/workflows/tests.yml
+  detection_source: ".github/workflows/tests.yml"
+  last_updated_by: Andreas Penz
+  last_updated_on: 2023-12-05 19:04:13.000000000 Z
+- name: PHPStan
+  description: PHP Static Analysis Tool - discover bugs in your code without running
+    it!
+  website_url: https://github.com/phpstan/phpstan
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/8333/phpst.png
+  detection_source_url: https://github.com/spryker-community/twig-code-sniffer/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Andreas Penz
+  last_updated_on: 2023-12-04 09:36:33.000000000 Z
+- name: phpstan/phpstan
+  description: PHPStan - PHP Static Analysis Tool
+  package_url: https://packagist.org/phpstan/phpstan
+  version: 1.10.47
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/twig-code-sniffer/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Andreas Penz
+  last_updated_on: 2023-12-05 19:07:37.000000000 Z
+- name: spryker/code-sniffer
+  description: Spryker Code Sniffer Standards
+  package_url: https://packagist.org/spryker/code-sniffer
+  version: 0.17.19
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/twig-code-sniffer/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Andreas Penz
+  last_updated_on: 2023-12-05 19:07:37.000000000 Z
+- name: spryker/kernel
+  description: Kernel module
+  package_url: https://packagist.org/spryker/kernel
+  version: 3.74.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/twig-code-sniffer/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Andreas Penz
+  last_updated_on: 2023-12-05 19:04:13.000000000 Z
+- name: spryker/testify
+  description: Testify module
+  package_url: https://packagist.org/spryker/testify
+  version: 3.51.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/twig-code-sniffer/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Andreas Penz
+  last_updated_on: 2023-12-05 19:04:13.000000000 Z
